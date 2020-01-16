@@ -1,0 +1,24 @@
+1.re.compile()
+2.raw strings are used to get native value of char \d instead of \\d
+3 re.search()
+4.mo=re.search();mo[0]
+5. group0:\d\d\d-\d\d\d-\d\d\d\d
+   gropup1:\d\d\d
+   group2:\d\d\d-\d\d\d\d
+6.\.,\(
+7. a=findall();a[0]
+8. or
+9. group can occur 0 or 1 time in given strng
+10. + refers to group is present atleast 1 time where * is for group present 0 or n
+11.it should find match exctly 3 times and other is min3 and max5
+12. \d for digits \w for words_ and \s for space
+13. negation of 12
+14. re.I
+15. . maatches everything except new line ,DOT ALL matche s all newline also
+16. greedy and not greedy search
+17. [0-9,a-z]
+18.'X drummers, X pipers, five rings, X hens'
+19. multiple line complie along with log statements
+20:^((\d){1,3})*((,)*(\d){3})*
+21.r'(^[A-Z])([a-z])+(\s)(Nakamoto)'
+22.r'(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.$',re.I
